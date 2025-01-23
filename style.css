@@ -1,0 +1,215 @@
+* {
+    text-decoration: none;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: calibri;
+    color: black;
+}
+
+.nav_li {
+    display: flex;
+    list-style: none;
+    font-family: calibri;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+li a {
+    color: black;
+    margin-right: 35px;
+}
+
+.sign_buttons {
+    display: flex;
+    gap: 15px;
+    width: 220px;
+    margin-left: 50px
+}
+
+.sign_in, .sign_up {
+    padding: 10px 18px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sign_in {
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.sign_in a {
+    color: black;
+}
+
+.sign_up {
+    background-color: black;
+    border: 1px solid lightgray;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.sign_up a {
+    color: white;
+}
+
+.platform_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin: 40px;
+}
+
+.platform_div a {
+    color: darkgray;
+}
+
+.platform_div h5 {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 6px 18px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    font-family: calibri;
+}
+
+.main_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.main_header h1 {
+    font-size: 85px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    max-width: 700px;
+    word-wrap: break-word;
+    line-height: 0.9;
+    color: black;
+    font-family: calibri;
+}
+
+.main_header p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 520px;
+}
+
+.main_header span {
+    color: #ff7209;
+}
+
+h1::after {
+    content: '      :) ';
+}
+
+.join_explore {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.join_button, .explore_button {
+    padding: 12px 29px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: calibri;
+}
+
+.join_button {
+    background-color: white;
+    border: 1px solid lightgray;
+    font-family: calibri;
+
+}
+
+.join_button a {
+    color: black;
+}
+
+.explore_button a {
+    color: white;
+}
+
+.explore_button {
+    background-color: black;
+    border: 1px solid lightgray;
+    font-family: calibri;
+
+}
+
+.trust {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+.logo_pics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.courses {
+    background-color: whitesmoke;
+}
+
+.popular_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.popular_div h6 {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 6px 18px;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 150px;
+    font-family: calibri;
+}
+
+.courses_header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.courses_header  h2 {
+    font-size: 56px;
+    font-weight: bold;
+    font-family: calibri;
+}
+.courses_header span {
+    color: #ff7209;
+}
