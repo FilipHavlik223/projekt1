@@ -194,7 +194,6 @@ h1::after {
     padding: 6px 18px;
     font-size: 14px;
     color: gray;
-    cursor: pointer;
     text-align: center;
     margin-top: 150px;
     font-family: calibri;
@@ -205,11 +204,13 @@ h1::after {
     justify-content: center;
     margin-top: 50px;
 }
-.courses_header  h2 {
+
+.courses_header h2 {
     font-size: 56px;
     font-weight: bold;
     font-family: calibri;
 }
+
 .courses_header span {
     color: #ff7209;
 }
@@ -221,7 +222,8 @@ h1::after {
     gap: 20px;
     padding: 20px;
 }
-.articles{
+
+.articles {
     background-color: white;
     border: 15px solid white;
     border-radius: 20px;
@@ -232,21 +234,42 @@ h1::after {
     transform: translateY(-3px);
 }
 
-.courses-photo{
+.courses-photo {
     border: 1px solid white;
     border-radius: 10px;
 }
 
-.first-title{
+.first-title {
     font-family: calibri;
     font-size: 16px;
     margin-top: 10px;
     padding: 0px;
 }
 
-.text-courses{
+.text-courses {
     font-family: calibri;
     font-size: 13px;
-    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 0px;
 
+}
+
+.articles button {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 6px 14px;
+    font-family: calibri;
+}
+
+.articles button a {
+    color: black;
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.articles div div img {
+    padding-right: 20px;
 }
